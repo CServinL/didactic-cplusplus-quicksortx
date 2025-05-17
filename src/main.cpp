@@ -46,10 +46,12 @@ private:
 
 // ---------- Main para probar con int y string ----------
 int main() {
-    //std::vector<std::string> words = {"dark", "apple", "banana", "cherry", "apple", "cold"};
-    std::vector<std::string> words = {"banana", "banana", "banana", "banana", "banana", "banana"};
-    //std::vector<int> numbers = {3, 5, 3, 2, 1, 3, 4, 2};
-    std::vector<int> numbers = {5, 5, 5, 5, 5, 5, 5, 5};
+    std::vector<std::string> words = {"dark", "apple", "banana", "cherry", "apple", "cold"};
+    std::vector<int> numbers = {3, 5, 3, 2, 1, 3, 4, 2};
+
+    // Estos son para probar el caso especifico de que todos los elems son iguales
+    //std::vector<std::string> words = {"banana", "banana", "banana", "banana", "banana", "banana"};
+    //std::vector<int> numbers = {5, 5, 5, 5, 5, 5, 5, 5};
 
     std::cout << "Strings antes de ordenar:\n";
     for (const auto& w : words) std::cout << w << " ";
